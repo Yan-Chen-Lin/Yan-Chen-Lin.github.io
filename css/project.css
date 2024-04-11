@@ -1,0 +1,407 @@
+.wrapper{
+    max-width:1024px;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.container{
+    /*max-width: 1024px;*/
+    padding:0;
+    background: #272929;
+}
+
+.Section_ProjectInfo{
+    max-width: 100%;
+    margin:auto;
+    /*padding-top:100px;
+    padding-bottom:100px;*/
+}
+
+.ProjectInfo_Container{
+    margin-top: 35px;
+    margin-bottom:25px;
+}
+
+.Square_Text{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Project_Preview{
+    width:80%;
+    /*height: 50%;
+    border-radius: 150px;*/
+    display:block;
+    margin:auto;
+}
+
+.Contact_white_Title{
+    font-size: 22px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: ivory;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.Contact_section_Bar{
+    width: 100%;
+    height: 1px;
+    margin-top: 25px;
+    background-color: ivory;
+}
+
+.Info_Line{
+    margin: 15px 25px;
+}
+
+.Info_Content{
+    display: flex;
+}
+
+.Contact_white_Info{
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: ivory;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.Contact_Icon_img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.fake_space{
+    height:25px;
+}
+
+.Contact_white_Info a{
+    color: ivory;
+    border-bottom: 1px solid #bbb;
+    text-decoration: none;
+}
+
+.Info_Bar{
+    width: 95%;
+}
+
+.Project_InfoSide{
+    position:relative;
+}
+
+.Project_Title{
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: ivory;
+    white-space:pre-wrap;
+    text-align: left;
+}
+
+.Project_SubTitle{
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #0B90CF;
+    white-space:pre-wrap;
+    text-align: left;
+}
+
+.Project_Intro{
+    max-width: 95%;
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: ivory;
+    white-space:pre-wrap;
+    text-align: left;
+    display: block;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.BackBtn{
+    text-align: center;
+    width: 40%;
+    height: 50px;
+    display: block;
+    margin: auto;
+    align-content: center;
+    font-size: 20px;
+}
+
+.BackBtn a{
+    color: ivory;
+    text-decoration: none;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .Contact_Img{
+        width:80%;
+        /*height: 50%;
+        border-radius: 150px;*/
+        display:block;
+        margin:auto;
+    }
+    
+    .Project_Preview{
+        width:80%;
+        /*height: 50%;
+        border-radius: 150px;*/
+        display:block;
+        margin:auto;
+    }
+
+    .Contact_white_Title{
+        font-size: 20px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: left;
+        padding-top: 50px;
+
+    }
+    
+    .Contact_section_Bar{
+        width: 100%;
+        height: 1px;
+        margin-top: 25px;
+        background-color: ivory;
+    }
+    
+    .Info_Line{
+        margin: 15px 25px;
+    }
+    
+    .Contact_white_Info{
+        font-size: 14px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: left;
+        margin-left: 15px;
+
+    }
+    
+    .Project_Title{
+        font-size: 24px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+    }
+
+    .Project_Intro{
+        font-size: 16px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    .Project_Preview{
+        width:80%;
+        /*height: 50%;
+        border-radius: 150px;*/
+        display:block;
+        margin:auto;
+    }
+
+    .Contact_white_Title{
+        font-size: 22px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: left;
+        padding-top: 50px;
+    }
+    
+    .Contact_section_Bar{
+        width: 100%;
+        height: 1px;
+        margin-top: 25px;
+        background-color: ivory;
+    }
+    
+    .Info_Line{
+        display: block;
+        margin: auto;
+        max-width: 456px;
+        width: 100%;
+        margin-top: 15px; 
+        margin-bottom: 15px;
+    }
+    
+    .Contact_white_Info{
+        font-size: 18px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: left;
+        margin-left: 15px;
+
+    }  
+    
+    .Project_Preview{
+        width:80%;
+        /*height: 50%;
+        border-radius: 150px;*/
+        display:block;
+        margin:auto;
+    }
+
+    .Project_Title{
+        width: 80%;
+        margin: auto;
+        font-size: 20px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .Project_Intro{
+        font-size: 14px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+    }
+
+    .Info_Bar{
+        width: 80%;
+        display: block;
+        margin:auto;
+    }
+
+    .Project_SubTitle{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .Project_Intro{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .Project_Preview{
+        width:80%;
+        /*height: 50%;
+        border-radius: 150px;*/
+        display:block;
+        margin:auto;
+    }
+
+    .Contact_white_Info{
+        font-size: 12px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+    .Contact_Icon_img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .Info_Line{
+        display: block;
+        margin: auto;
+        max-width: 336px;
+        width: 100%;
+        margin-top: 10px; 
+        margin-bottom: 10px;
+    }
+
+    .Project_Title{
+        width: 80%;
+        margin: auto;
+        font-size: 16px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .Project_Intro{
+        font-size: 12px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+    }
+
+    .Info_Bar{
+        width: 80%;
+        display: block;
+        margin:auto;
+    }
+
+    .Project_SubTitle{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .Project_Intro{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 575.98px){
+    .Project_Preview{
+        width:80%;
+        /*height: 50%;
+        border-radius: 150px;*/
+        display:block;
+        margin:auto;
+    }
+
+    .Contact_white_Info{
+        font-size: 12px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        text-align: left;
+        margin-left: 15px;
+        width: auto;
+    }
+    
+    .Contact_Icon_img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .Info_Line{
+        display: block;
+        margin: auto;
+        max-width: 456px;
+        width: 100%;
+        margin-top: 15px; 
+        margin-bottom: 15px;
+    }
+
+    .Project_Title{
+        font-size: 16px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .Project_Intro{
+        font-size: 12px;
+        font-family: 'Noto Sans TC', sans-serif;
+        color: ivory;
+        white-space:pre-wrap;
+        text-align: left;
+    }
+}
